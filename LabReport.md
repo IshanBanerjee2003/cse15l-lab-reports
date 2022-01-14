@@ -56,6 +56,11 @@ The above created two new files on our system; the private key (in a file id_rsa
 Next step would be to  copy the public (not the private) key to the .ssh directory of the user account on the server by making a directory .ssh on the server.
 The scp command may be used for this purpose.
 
+Then I instantiated the process of logging in without the password as follows:
+
+![image](https://user-images.githubusercontent.com/97653190/149576809-4c6f708b-3f23-41b6-b8a6-397951caadb9.png)
+
+
 # 6. Optimizing Remote Running :
 
 One can write a command in quotes at the end of an ssh command to directly run it on the remote server and then exit. 
