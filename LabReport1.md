@@ -31,11 +31,11 @@ We can also copy files by running standard cp commands.
 
 ![image](https://user-images.githubusercontent.com/97653190/149418834-4a31204a-b9d1-43a0-a2c8-ddaba77aa200.png)
 
-# 4. Moving files with scp :
+# 4. Moving files with `scp` :
 
-One of the basic requirements would be that of copying files back and forth between computers and that can be achieved using scp command .
+One of the basic requirements would be that of copying files back and forth between computers and that can be achieved using `scp` command .
 The following example shows that I first run a java program in my client after compiling it locally  
-Then using scp command I move the java file to the remote server. 
+Then using `scp` command I move the java file to the remote server. 
 I log in using `ssh` , compile and run the program on the server as shown in the following  sequence of screenshots.
 
 ![image](https://user-images.githubusercontent.com/97653190/149418978-580cbfeb-a02c-4e87-8c96-e9bae4572a48.png)
@@ -46,7 +46,7 @@ I log in using `ssh` , compile and run the program on the server as shown in the
 
 # 5. Setting an SSHkey :
 
-In order that we don’t need to type our password every time we log in with `ssh` or move files with scp , we can create `ssh` keys to make things easier. 
+In order that we don’t need to type our password every time we log in with `ssh` or move files with `scp` , we can create `ssh` keys to make things easier. 
 We call a program called `ssh-keygen` which creates a pair of files called the public key and private key. 
 You copy the public key to a particular location on the server, and the private key in a particular location on the client as shown in the following screenshot.
 
@@ -54,7 +54,7 @@ You copy the public key to a particular location on the server, and the private 
 
 The above created two new files on our system; the private key (in a file id_rsa) and the public key (in a file id_rsa.pub), stored in the `.ssh` directory on our computer.
 Next step would be to  copy the public (not the private) key to the `.ssh` directory of the user account on the server by making a directory `.ssh` on the server.
-The scp command may be used for this purpose.
+The `scp` command may be used for this purpose.
 
 Then I instantiated the process of logging in without the password as follows:
 
@@ -75,5 +75,7 @@ Another thing which one could possibly do is to use semicolons to run multiple c
 In order to make remote running an even more pleasant experience, one can make a local edit (For example to the file WhereAmI,java) and then copy it to the remote server and run it.
 
 The following is an optimization and I was successfully able to reduce from 26 to 6 keystrokes.
+
+The way I optimized remote running was by using the up arrow multiple times, rather than writing the characters. 
 
 ![image](Screenshot 2022-01-26 191225.png)
