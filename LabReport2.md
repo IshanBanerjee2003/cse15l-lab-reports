@@ -55,14 +55,13 @@ Please click the following link [Following Link](https://github.com/IshanBanerje
 
 The error created has been shown in the image below:
 
-![image](Screenshot 2022-01-27 232844.png)
+![image](Screenshot 2022-01-27 232042.png)
 
 Description:
 
+The text file just has a single space and hence the index of the nextOpenBracket becomes -1, which results in an indexOutOfBounds exception. However after editing the code, in which we prompt it to break out of the loop, when such a scenario arrives, our problem is solved.
 
-
-
-
+- Ishan Banerjee
 
 
 
