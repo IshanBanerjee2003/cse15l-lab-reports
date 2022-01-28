@@ -8,4 +8,23 @@ I have picked three code changes that my group worked on in labs 3 and 4 in orde
 
 ![image](Screenshot 2022-01-27 214341.png)
 
-[The following link](https://github.com/IshanBanerjee2003/cse15l-lab-reports/blob/main/test-file2.md)
+Please click the following link [Following Link](https://github.com/IshanBanerjee2003/cse15l-lab-reports/blob/main/test-file2.md)  to access the test file which causes the problem.
+
+Error:
+
+![image](Screenshot 2022-01-27 220529.png)
+
+Description:
+ 
+infinite loop.....
+
+# 2nd CODE CHANGE:
+
+![image](Screenshot 2022-01-27 223703.png)
+
+Please click the following link [Following Link](https://github.com/gingersmith4/markdown-parse/blob/b1fbcdd0e807f6859afd9c387223218f49e126d0/second-test.md)  to access the test file which causes the problem.
+
+Error:
+
+
+
