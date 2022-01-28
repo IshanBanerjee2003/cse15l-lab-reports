@@ -21,33 +21,46 @@ The error created has been shown in the image below:
 
 Description:
  
+Without the edited code, it results in an infinite loop, and it ends up using all the memory, hence causing the OutOfMemory error.
 
+# CODE CHANGE 2:
 
-# 2nd CODE CHANGE:
+The second error which we face is that of a logical error.
+
+In the image below one can see the changes made in the code, highlighted in the green portion.
+With the following change, the required test produces our desired output.
 
 ![image](Screenshot 2022-01-27 230818.png)
 
-Please click the following link [Following Link](https://github.com/IshanBanerjee2003/cse15l-lab-reports/blob/main/test-file9.md)  to access the test file which causes the problem.
+Please click the following link [Following Link](https://github.com/IshanBanerjee2003/markdown-parse/blob/main/test-file9.md)  to access the test file which causes the problem.
 
-Error:
+The error created has been shown in the image below:
 
 ![image](Screenshot 2022-01-27 225205.png)
 
 Description:
 
-Logical error
+The format for writing a link and a image is very simiar, hence it might lead to some confusion, but the code should return just the link, which it does not in the first case, but after making the changing it does.
 
-# 3rd CODE CHANGE:
+# CODE CHANGE 3:
+
+The third error which we face is that of an indexOutOfBounds exception.
+
+In the image below one can see the changes made in the code, highlighted in the green portion.
+With the following change, the required test passes, producing no errors.
 
 ![image](Screenshot 2022-01-27 232844.png)
 
 Please click the following link [Following Link](https://github.com/IshanBanerjee2003/markdown-parse/blob/main/test-file.md)  to access the test file which causes the problem.
 
-Error:
+The error created has been shown in the image below:
 
 ![image](Screenshot 2022-01-27 232844.png)
 
 Description:
+
+
+
 
 
 
