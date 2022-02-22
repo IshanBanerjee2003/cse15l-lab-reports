@@ -34,9 +34,11 @@ The next step is to see whether we can successfully copy a file or not after usi
 
 Below is the screenshot where I successfully copy the file in the system.
 
-![image](filecopy.png) 
+![image](scp.png) 
  
-As one can see we copied the **second-test.md** file and moreover to confirm that it is copied I use the `ls` command to verify that the file exists within the server. 
+As one can see we copied the **second-test.md** file and moreover to confirm that it is copied I use the `ls` command, as shown below to verify that the file exists within the server. 
+
+![image](ls.png)
 
 Let us now check the time difference between the two commands.
 
