@@ -6,6 +6,8 @@ For each snippet, I have added a test both to my implementation of markdown-pars
 
 The link to the markdown-parse repository which we reviewed can be accessed through [the following link](https://github.com/johnsonli010801/markdown-parse)
 
+The link to my repository can be accessed through [the following link](https://github.com/IshanBanerjee2003/cse15l-lab-reports)
+
 Both of us ran the same tests and the expected values can be seen as shown in the screenshot below.
 
 ![image](tests.png)
