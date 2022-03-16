@@ -2,6 +2,11 @@
 
 In this post, I am going to create another page in my lab report repository, like I did for lab report 1, 2, 3 and 4 respectively, and write my report here.
 
+The command I used to find the different results was the `diff` command.
+
+The following screenshot shows how the  command excecuted:
+
+![image](diffcommand.png)
 
 # Difference 1:
 
